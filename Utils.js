@@ -31,7 +31,7 @@ function mostraImagem(files){
 	img.file = file;
 
 	div_img[0].appendChild(img)
-	// Mostra 
+	// show 
 	console.dir(file)
 	
 	// create a reader for file
