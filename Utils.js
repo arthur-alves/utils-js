@@ -1,5 +1,5 @@
 //get parameters from url
-function requestVars(){ 
+function requestUrlVars(){ 
     var params = window.location.search
     if (params){
         var url_params = params.replace('?','').split('&');
